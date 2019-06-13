@@ -1,0 +1,108 @@
+body {
+  padding-top: 60px;
+  text-align: left;
+  background-color: #606060; 
+  font-family: 'Karla', sans-serif;
+}
+body.light{background-color: #808080}
+body.dark{background-color: #606060}
+
+.container.dark{background-color: #606060}
+.container.light{background-color:#808080}
+
+
+.container{
+  padding-bottom: 5%;
+  padding-top:5%;
+  
+}
+
+.container-fluid {
+  width: 100%;
+  color: white;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.navbar ul{
+  list-style: none;
+  margin: 0 auto;
+  padding: 0; 
+  overflow: hidden; 
+  }
+
+.demo{ background: #7933FF; }
+.progress{
+    height: 40px;
+    background: #5800FF;
+    border-radius: 100px;
+    box-shadow: none;
+    margin-top: 40px;
+    position: relative;
+}
+.progress .progress-title{
+    width: 20%;
+    height: 100%;
+    background:#ef6e06;
+    border-radius: 100px 0 0 100px;
+    float: left;
+    margin: 0;
+    font-size: 15px;
+    color: #000;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.progress .progress-title:after{
+    content: "";
+    border-left: 10px solid #ef6e06;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    z-index: 1;
+}
+.progress .progress-bar{
+    width: 80%;
+    background: #3D7FF5;
+    box-shadow: none;
+    position: relative;
+}
+.progress .progress-value{
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #fff;
+    animation: animate-positive 2s;
+}
+.progress.red .progress-value{ background: #ec4251; }
+.progress.green .progress-value{ background: #73cd21; }
+.progress.violet .progress-value{ background: #0D5FF2; }
+.progress.yellow .progress-value{ background: #eea921; }
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+@media only screen and (max-width: 480px){
+    .progress .progress-title{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+}
+
+ 
