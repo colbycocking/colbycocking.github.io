@@ -91,10 +91,9 @@ h2 {
     color: #fff;
     animation: animate-positive 2s;
 }
-.progress.red .progress-value{ background: #ec4251; }
-.progress.green .progress-value{ background: #73cd21; }
+
 .progress.violet .progress-value{ background: #0D5FF2; }
-.progress.yellow .progress-value{ background: #eea921; }
+
 @keyframes animate-positive{
     0%{ width: 0; }
 }
